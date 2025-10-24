@@ -20,3 +20,7 @@ index.html
 ![Single-page-CV Preview](preview.png)
 
 The project should now be running locally with hot reload enabled! 🎉
+URL Link: 
+```
+https://roadmap.sh/projects/single-page-cv
+```
