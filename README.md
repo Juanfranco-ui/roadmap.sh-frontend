@@ -7,7 +7,7 @@ Follow these simple steps to get the Single page CV running on your local machin
 1. Clone this repository:
 ```bash
 git clone https://github.com/Juanfranco-ui/Single-page-CV.git
-cd qr-code-component
+cd Single-page-CV
 ```
 
 2. Install dependencies:
