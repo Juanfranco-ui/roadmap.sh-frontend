@@ -1,0 +1,214 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img{
+    width: 40px;
+    height: 40px;
+    background-color: black;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.container-hero{
+    padding: 60px 30px;
+    text-align: center;
+    border-bottom: 3px solid black;
+}
+
+.h4-g{
+    padding: 10px;
+    font-size: 13px;
+    color: #7d7d7d;
+    font-weight: 500;
+}
+
+#information-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+#information-container > article{
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.projects {
+    flex: 1;
+    padding: 10px 0;  /* Solo vertical */
+    font-size: 17px;
+}
+
+.projects h3 {
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+
+.projects ul {
+    padding: 0;
+}
+
+.projects ul li {
+    font-size: 14px;
+    list-style: none;
+    border-bottom: 1px solid black;
+    padding: 8px 15px;  /* Espaciado interno del texto */
+}
+
+.projects ul li:last-child {
+    border-bottom: none;
+}
+
+.info-section{
+    flex: 1;
+    font-size: 17px;
+    padding: 10px 0;
+}
+
+.info-section h3{
+    margin-bottom: 15px;
+}
+
+.info-section p{
+    margin-bottom: 10px;
+}
+
+.info-section > div{
+     border-bottom: 2px solid black;
+     /* Reducimos la separación entre bloques para acercar
+         Work Experience y OpenSource Work sin tocar la alineación */
+     margin-bottom: 10px;
+     /* Añadimos padding para separar el contenido interno sin alterar la
+         anchura de las columnas (box-sizing: border-box está aplicado). */
+     padding: 0 15px;
+}
+
+/* Pequeños márgenes para los elementos de texto dentro de cada bloque
+   (mejora la lectura dentro de Work Experience / OpenSource Work). */
+.info-section > div h3,
+.info-section > div h4,
+.info-section > div p,
+.info-section > div a{
+    margin-bottom: 8px;
+}
+
+
+.info-section a{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.info-section > .ow:last-child{
+    border-bottom: none;
+}
+
+.education{
+    flex: 1;
+    /* Pequeño ajuste: reducir un poco el padding para una apariencia más compacta */
+    padding: 10px;
+    font-size: 17px;
+}
+
+.education p{
+    margin-top: 10px;
+    line-height: normal;
+}
+
+.education ul{
+    list-style: none;
+    margin-top: 20px;
+}
+
+.education ul li::before{
+    content: "- ";
+    margin-right: 5px;
+}
+
+.education ul li{
+    font-size: 16px;
+}
+
+.education:last-child{
+    border-right: none;
+}
+
+.reviews-section{
+    padding: 40px 20px;
+}
+
+.reviews-section h3{
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.reviews-container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.review-card{
+    flex: 0 1 300px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 25px;
+    min-height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.review-text{
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.review-author{
+    font-size: 14px;
+    color: #d3d3d3;
+    margin-bottom: 3px;
+}
+
+.review-role{
+    font-size: 14px;
+    color: #d3d3d3;
+}
+
+footer p{
+    text-align: center;
+    font-weight: bold;
+    margin-top: -20px;
+}
