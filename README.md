@@ -6,7 +6,7 @@ Follow these simple steps to get the QR code component running on your local mac
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/qr-code-component.git
+git clone https://github.com/Juanfranco-ui/Single-page-CV.git
 cd qr-code-component
 ```
 
