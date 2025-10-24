@@ -2,96 +2,103 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Single Page CV">
-    <meta name="author" content="Juan Sebastian Franco">
-    <meta name="robots" content="index, follow">
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Juan Sebastian Franco - Frontend Developer">
-    <meta name="twitter:description" content="Frontend Developer CV">
-    <meta property="og:image" content="https://github.com/Juanfranco-ui/Single-page-CV/preview.png">
-    <meta property="og:url" content="https://github.com/Juanfranco-ui/Single-page-CV/index.html">
-    <meta property="og:title" content="Single Page CV">
-    <meta property="og:description" content="Example of a CV in a single page using only HTML">
-    <meta property="og:type" content="website">
-    <meta property="og:locale" content="en_US">
-    <title>Single page CV - Junior Frontend Developer</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="canonical" href="index.html">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Basic HTML Landing Page">
+    <title>Basic HTML Site</title>
 </head>
 
 <body>
-    <hr width="60%" align="left" aria-label="Decorative line">
     <header>
-        <h1>Juan Sebastian Franco</h1>
-        <h2>Junior Frontend Developer</h2>
-        <address>
-            <p>123 your street</p>
-            <p>Your city, ST 12345</p>
-            <p>(123) 456-7890</p>
-            <p>no_reply@example.com</p>
-        </address>
+        <img src="#" alt="Icon">
+        <span>Juan Sebastian</span>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#articles">Articles</a></li>
+                <li><a href="/public/src/contact.html">Contact</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
+        <div class="container">
+            <h1>Frontend Developer</h1>
+            <h4>html only with proper layout, no styling</h4>
+        </div>
         <section>
             <article>
-                <h2>Skills</h2>
+                <h3>Projects</h3>
                 <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>Javascript</li>
-                    <li>Accesibility</li>
-                    <li>Figma to Design</li>
-                    <li>Responsive Web Design</li>
-                    <li>Technical Writing</li>
-                    <li>Presentation</li>
+                    <li>HTML Only Portfolio</li>
+                    <li>Calculator</li>
+                    <li>Quiz App</li>
+                    <li>Countdown Timer</li>
+                    <li>Product Upcoming Page</li>
                 </ul>
             </article>
-        </section>
-        <section>
             <article>
-                <h2>Education</h2>
-                <h3>School Name, Location - Degree</h3>
-                <time datetime="2022-02-10">Feb 2022</time> to <time datetime="2022-07-05">Jul 2022</time>
-                <p>List of exciting things you did at university</p>
+                <h3>Work Experience</h3>
+                <p><b>roadmap.sh</b></p>
+                <p>Solved all the frontend projects</p>
+                <a href="#">Visit my Profile</a>
+                <h3>OpenSource Work</h3>
+                <p>Contributed to 50 opensource
+                    projects. Made my own projects with 200 GitHub Stars.
+                </p>
+                <p><a href="#">Visit my GitHub Profile</a></p>
             </article>
         </section>
-        <section role="region" aria-labelledby="experience-section">
-            <h2 id="experience-section">Experience</h2>
-            <article>
-                <h3>Company Name, Location - Job Title</h3>
-                <time datetime="2022-10-10">Oct 2022</time> to <time datetime="2023-07-05">Jul 2023</time>
+        <article>
+            <section>
+                <h3>Education</h3>
+                <p>Graduated with 3.76 out of 4 CGPA. Won Acme Hackathon.
+                    Organized 30 sessions.
+                </p>
+                <p>Courses i took:</p>
                 <ul>
-                    <li>List of achievements</li>
-                    <li>List of achievements</li>
-                    <li>List of achievements</li>
+                    <li>Object Oriented Programming</li>
+                    <li>Data Structures and Algorithms</li>
+                    <li>Web Engineering</li>
+                    <li>Artificial Intelligence</li>
+                    <li>Human Computer Interaction</li>
+                    <li>Computer Graphics</li>
+                    <li>Database Management Systems</li>
+                    <li>Distributed Database Systems</li>
+                    <li>Discrete Mathematics</li>
                 </ul>
-                <p>Skills: List of skills used or gained at this company</p>
-            </article>
-            <article>
-                <h3>Company Name, Location - Job Title</h3>
-                <time datetime="2024-06-10">Jun 2024</time> to <time datetime="2025-10-20">Oct 2025</time>
-                <ul>
-                    <li>List of achievements</li>
-                    <li>List of achievements</li>
-                    <li>List of achievements</li>
-                </ul>
-                <p>Skills: List of skills used or gained at this company</p>
-            </article>
-        </section>
+            </section>
+        </article>
     </main>
     <footer>
-        <nav aria-label="Social media links">
-            <h2>Across the internet</h2>
-            <a href="https://www.linkedin.com/in/juan-franco2024/" rel="noopener noreferrer"
-                aria-label="Visit my LinkedIn profile">LinkedIn</a>
-            <a href="https://github.com/Juanfranco-ui" rel="noopener noreferrer"
-                aria-label="Visit my GitHub Profile">GitHub</a>
-        </nav>
+        <section>
+            <h3>Reviews from my teachers</h3>
+            <div>
+                <h4>John doe was a brilliant student; always stood out
+                    with his assignments.
+                </h4>
+                <p>Jane Doe
+                    Assistant Professor
+                </p>
+            </div>
+            <div>
+                <h4>John doe was a brilliant student; always stood out
+                    with his assignments.
+                </h4>
+                <p>Jane Doe
+                    Assistant Professor
+                </p>
+            </div>
+            <div>
+                <h4>John doe was a brilliant student; always stood out
+                    with his assignments.
+                </h4>
+                <p>Jane Doe
+                    Assistant Professor
+                </p>
+            </div>
+        </section>
+        <p>&copy; <b>all rights reserved 2025</b></p>
     </footer>
 </body>
 
