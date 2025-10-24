@@ -1,6 +1,6 @@
 # 🚀 Quick Start Guide
 
-Follow these simple steps to get the QR code component running on your local machine:
+Follow these simple steps to get the Single page CV running on your local machine:
 
 ## 📥 Installation
 
