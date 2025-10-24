@@ -10,25 +10,13 @@ git clone https://github.com/Juanfranco-ui/Single-page-CV.git
 cd Single-page-CV
 ```
 
-2. Install dependencies:
-```bash
-npm install
+2. Open the index.html to visualize in your browser:
 ```
-
-## 🖥️ Running the Project
-
-1. Start the development server:
-```bash
-npm run dev
-```
-
-2. Open your browser and visit:
-```
-http://localhost:5173
+index.html
 ```
 
 ## 📱 Preview
 
-![Single-page-CV Preview](./preview.jpg)
+![Single-page-CV Preview](preview.png)
 
 The project should now be running locally with hot reload enabled! 🎉
