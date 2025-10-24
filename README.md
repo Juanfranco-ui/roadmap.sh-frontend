@@ -29,6 +29,6 @@ http://localhost:5173
 
 ## 📱 Preview
 
-![QR Code Component Preview](./preview.jpg)
+![Single-page-CV Preview](./preview.jpg)
 
 The project should now be running locally with hot reload enabled! 🎉
