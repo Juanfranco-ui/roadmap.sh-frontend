@@ -20,6 +20,6 @@ index.html
 ![roadmap.sh-frontend Preview](preview.png)
 
 The project should now be running locally with hot reload enabled! 🎉
-URL Link: https://roadmap.sh/projects/portfolio-website
+URL Link: [https://roadmap.sh/projects/portfolio-website](https://roadmap.sh/projects/changelog-component)
 
 
