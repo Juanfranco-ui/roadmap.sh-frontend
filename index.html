@@ -3,49 +3,83 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Changelog</title>
-    <link rel="stylesheet" href="style.css">
+    <script
+      src="https://kit.fontawesome.com/21528070c9.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Datepicker UI</title>
   </head>
-
   <body>
-    <header>
-      <h1>Changelog</h1>
-      <p class="text-lighter">Here's everything we have shipped in the past few days</p>
-    </header>
     <main>
-      <ul>
-        <li class="changelog-item">
-          <time datetime="2024-09-03" class="text-lighter">September 3, 2024</time>
-          <h3>Announcing Projects on Frontend Roadmap</h3>
-        </li>
-        <li class="changelog-item">
-          <time datetime="2024-08-28" class="text-lighter">August 28, 2024</time>
-          <h3>Build your learning habits...</h3>
-        </li>
-        <li class="changelog-item">
-          <time datetime="2024-08-25" class="text-lighter">August 25, 2024</time>
-          <h3>Git and GitHub Roadmap</h3>
-        </li>
-        <li class="changelog-item">
-          <time datetime="2024-08-22" class="text-lighter">August 22, 2024</time>
-          <h3>Submit your project solution and get feedback</h3>
-        </li>
-        <li class="changelog-item">
-          <time datetime="2024-08-15" class="text-lighter">August 15, 2024</time>
-          <h3>Backend Project Ideas</h3>
-        </li>
-        <li class="changelog-item">
-          <time datetime="2024-08-10" class="text-lighter">August 10, 2024</time>
-          <h3>Redis roadmap</h3>
-        </li>
-        <li class="changelog-item">
-          <time datetime="2024-08-01" class="text-lighter">August 1, 2024</time>
-          <h3>Changelog page to help you stay in the loop</h3>
-        </li>
-      </ul>
+      <article>
+        <div class="input">
+          <input
+            type="date"
+            aria-placeholder="dd/mm/yyyy"
+            placeholder="dd/mm/yyyy"
+          /><button
+            class="calendar-button"
+            aria-label="calendar button with icon"
+          >
+            <i class="fa-solid fa-calendar-days"></i>
+          </button>
+        </div>
+      </article>
+      <article>
+        <div class="calendar-header">
+          <span class="nav-arrow">&lt;</span>
+          <span class="actual-month">December 2022</span>
+          <span class="nav-arrow">&gt;</span>
+        </div>
+        <div class="weekDays">
+          <span>S</span>
+          <span>M</span>
+          <span>T</span>
+          <span>W</span>
+          <span>T</span>
+          <span>F</span>
+          <span>S</span>
+        </div>
+        <div class="monthDays">
+          <span class="vacio"></span>
+          <span class="vacio"></span>
+          <span class="vacio"></span>
+          <span class="vacio"></span>
+
+          <span>1</span>
+          <span>2</span>
+          <span>3</span>
+          <span>4</span>
+          <span>5</span>
+          <span>6</span>
+          <span>7</span>
+          <span>8</span>
+          <span>9</span>
+          <span>10</span>
+          <span>11</span>
+          <span>12</span>
+          <span>13</span>
+          <span>14</span>
+          <span>15</span>
+          <span>16</span>
+          <span>17</span>
+          <span>18</span>
+          <span>19</span>
+          <span>20</span>
+          <span>21</span>
+          <span>22</span>
+          <span>23</span>
+          <span>24</span>
+          <span>25</span>
+          <span>26</span>
+          <span>27</span>
+          <span>28</span>
+          <span>29</span>
+          <span>30</span>
+          <span>31</span>
+        </div>
+      </article>
     </main>
-    <footer>
-      <button>Visit Complete Changelog</button>
-    </footer>
   </body>
 </html>
